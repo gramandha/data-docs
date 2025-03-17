@@ -1,2 +1,15 @@
 site_name: Machine Learning
 theme: readthedocs
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
