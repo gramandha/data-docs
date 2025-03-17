@@ -1,5 +1,7 @@
 site_name: Machine Learning
 theme: readthedocs
+# repo_name: gramandha/gramandha-docs
+repo_url: https://github.com/gramandha/data-docs
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
